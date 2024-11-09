@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.stopwatch-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+  background-image: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+}
+
+.stopwatch-container {
+  background-color: #ffffff;
+  width: 350px;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  text-align: center;
+}
+
+.stopwatch-heading {
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.timer-display {
+  margin-top: 20px;
+}
+
+.timer-icon {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.timer-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.time {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.buttons-container {
+  margin-top: 30px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.start-button {
+  background-color: #1db05f;
+}
+
+.stop-button {
+  background-color: #ef0d36;
+}
+
+.reset-button {
+  background-color: #eaa800;
+}
+
+/* Responsive design */
+@media screen and (max-width: 576px) {
+  .stopwatch-container {
+    width: 90%;
+  }
+
+  .time {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch-container {
+    width: 400px;
+  }
+}
